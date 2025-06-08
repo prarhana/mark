@@ -25,18 +25,19 @@
             <source>1.8</source>
             <target>1.8</target>
           </configuration>
+       </plugin>
        <plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>3.2.2</version>
-        <configuration>  
-          <archive>
-            <mainfest>
-              <mainClass>com.example.App</mainClass>
-            </manifest>
-          </archive>
-        </configuration>
-      </plugin>
-    <plugins>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-jar-plugin</artifactId>
+          <version>3.2.2</version>
+          <configuration>  
+           <archive>
+              <manifest>
+                <mainClass>com.example.App</mainClass>
+              </manifest>
+            </archive>
+          </configuration>
+        </plugin>
+     <plugins>
+  </build>
 </project>
